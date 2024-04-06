@@ -17,7 +17,7 @@ RUN  wget https://github.com/Busayor123/deploy-preschool-website/raw/main/kider.
 RUN unzip  kider.zip
 
 # copy files into html directory
-RUN sudo cp -r preschool-website-template/*  /var/www/html
+RUN  cp -r preschool-website-template/*  /var/www/html
 
 # remove unwanted folder
 RUN rm -rf kider.zip
