@@ -1,3 +1,4 @@
+
 FROM amazonlinux:latest
 
 # Install dependencies
